@@ -1,18 +1,21 @@
-# Portfolio de Monhamad Ouedraogo
+# Portfolio – Monhamad Ouedraogo
 
-React + TypeScript + Vite, bilingue FR/EN (`/fr`, `/en`).
+Portfolio personnel d'un étudiant ingénieur en informatique orienté cybersécurité : projets, laboratoires et parcours.
+
+🌐 **Site :** https://monhamad.github.io (français et anglais)
+
+## Contenu
+- Projets de sécurité et d'infrastructure, avec leurs limites
+- Étude détaillée du projet RansomGuard
+- Compétences classées par niveau (pratiqué, en apprentissage, notions)
+- Parcours et laboratoire technique
+
+## Technologies
+React, TypeScript, Vite. Déploiement automatique sur GitHub Pages avec GitHub Actions.
 
 ## Lancer en local
     npm install
-    npm run dev        # http://localhost:5173
-    npm run build      # vérifie TypeScript et construit dist/
+    npm run dev
 
-## Personnaliser
-Tout est dans `src/content.ts` : coordonnées, compétences (niveaux `practiced` / `learning` / `notions`), projets, textes FR et EN.
-- CV : placer le PDF dans `public/` puis renseigner `config.cvUrl` (ex. `'/cv-monhamad-ouedraogo.pdf'`).
-- Formulaire : créer un formulaire chez Formspree ou Web3Forms et coller son URL dans `config.formEndpoint`. Sans cela, un lien e-mail s’affiche à la place.
-
-## Publier sur GitHub Pages
-1. Créer le dépôt `monhamad.github.io` et y pousser ce dossier (branche `main`).
-2. Settings > Pages > Source : **GitHub Actions**. Le workflow `.github/workflows/deploy.yml` construit et publie le site.
-3. Si le dépôt a un autre nom, changer `base` dans `vite.config.ts` et les URL dans `index.html` et `public/sitemap.xml`.
+## Contact
+monhamad50@gmail.com · [LinkedIn](https://www.linkedin.com/in/monhamad-ouedraogo)
