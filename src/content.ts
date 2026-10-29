@@ -8,7 +8,7 @@ export const config = {
   github: 'https://github.com/monhamad',
   linkedin: 'https://www.linkedin.com/in/monhamad-ouedraogo',
   // Chemin du CV (fichier à placer dans public/), ex. '/cv-monhamad-ouedraogo.pdf'. Vide = bouton masqué.
-  cvUrl: '',
+  cvUrl: '/cv-monhamad-ouedraogo.pdf',
   // Point d’accès d’un service de formulaire (Formspree, Web3Forms…). Vide = formulaire remplacé par un lien e-mail.
   formEndpoint: '',
 };
