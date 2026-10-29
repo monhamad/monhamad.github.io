@@ -125,13 +125,13 @@ const fr = {
   hero: {
     role: 'Étudiant ingénieur en informatique orienté cybersécurité',
     tagline: 'Comprendre les systèmes. Détecter les menaces. Concevoir des solutions de sécurité.',
-    intro: 'Élève ingénieur en quatrième année à l’École Polytechnique de Ouagadougou. Je monte des laboratoires, je documente ce que je réalise et je cherche un stage en cybersécurité.',
+    intro: 'Élève ingénieur en cinquième année à l’École Polytechnique de Ouagadougou. Je monte des laboratoires, je documente ce que je réalise et je cherche un stage de fin d’études (stage de soutenance) en cybersécurité.',
     projects: 'Découvrir mes projets', cv: 'Télécharger mon CV', contact: 'Me contacter',
   },
   about: {
     h: 'À propos',
     p: [
-      'Je suis en quatrième année du cycle ingénieur à l’Institut du génie informatique et des télécoms (IGIT) de l’École Polytechnique de Ouagadougou, après une classe préparatoire. Je me spécialise en cybersécurité et je vise un poste de pentester ou de red teamer junior.',
+      'Je suis en cinquième année du cycle ingénieur à l’Institut du génie informatique et des télécoms (IGIT) de l’École Polytechnique de Ouagadougou, après une classe préparatoire. Je me spécialise en cybersécurité et je vise un poste de pentester ou de red teamer junior.',
       'Ma méthode : monter un laboratoire, faire fonctionner le système, le tester (par exemple en simulant une panne ou une attaque), puis documenter ce qui a marché et ce qui a posé problème.',
       'Je suis un profil junior en construction. Je présente ici ce que j’ai réellement réalisé, avec ses limites, et ce que j’apprends en ce moment.',
     ],
@@ -171,7 +171,7 @@ const fr = {
     ],
   },
   contact: {
-    h: 'Contact', intro: 'Je cherche un stage et une première expérience en cybersécurité. Écrivez-moi.',
+    h: 'Contact', intro: 'Je cherche un stage de fin d’études (soutenance) en cybersécurité. Écrivez-moi.',
     name: 'Nom', email: 'Adresse e-mail', subject: 'Objet', message: 'Message', send: 'Envoyer', sending: 'Envoi en cours…',
     ok: 'Message envoyé. Merci, je vous répondrai rapidement.', error: 'L’envoi a échoué. Réessayez ou écrivez-moi directement par e-mail.',
     invalid: 'Vérifiez les champs : nom, adresse e-mail valide, objet et message d’au moins 10 caractères.',
@@ -206,13 +206,13 @@ const en: typeof fr = {
   hero: {
     role: 'Computer engineering student focused on cybersecurity',
     tagline: 'Understand systems. Detect threats. Design security solutions.',
-    intro: 'Fourth-year engineering student at the École Polytechnique de Ouagadougou. I build labs, document what I do, and I am looking for a cybersecurity internship.',
+    intro: 'Fifth-year engineering student at the École Polytechnique de Ouagadougou. I build labs, document what I do, and I am looking for an end-of-studies internship in cybersecurity.',
     projects: 'See my projects', cv: 'Download my CV', contact: 'Contact me',
   },
   about: {
     h: 'About',
     p: [
-      'I am in the fourth year of the engineering program at the Institut du génie informatique et des télécoms (IGIT) of the École Polytechnique de Ouagadougou, after a preparatory class. I am specializing in cybersecurity and aiming for a junior pentester or red team role.',
+      'I am in the fifth year of the engineering program at the Institut du génie informatique et des télécoms (IGIT) of the École Polytechnique de Ouagadougou, after a preparatory class. I am specializing in cybersecurity and aiming for a junior pentester or red team role.',
       'My method: build a lab, get the system running, test it (for example by simulating a failure or an attack), then document what worked and what went wrong.',
       'I am a junior profile still taking shape. This site shows what I have actually built, with its limits, and what I am learning right now.',
     ],
@@ -252,7 +252,7 @@ const en: typeof fr = {
     ],
   },
   contact: {
-    h: 'Contact', intro: 'I am looking for an internship and a first experience in cybersecurity. Get in touch.',
+    h: 'Contact', intro: 'I am looking for an end-of-studies internship in cybersecurity. Get in touch.',
     name: 'Name', email: 'Email address', subject: 'Subject', message: 'Message', send: 'Send', sending: 'Sending…',
     ok: 'Message sent. Thank you, I will reply soon.', error: 'Sending failed. Try again or email me directly.',
     invalid: 'Please check the fields: name, a valid email address, subject, and a message of at least 10 characters.',
